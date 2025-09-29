@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Lora:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1e1e1e;
+  --accent: #8BAE83;
+  --white: #ffffff;
+  --gray: #DADADA;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-primary bg-white antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 sm:px-8 lg:px-12;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white px-8 py-4 hover:bg-accent transition-all duration-300 font-medium tracking-wide;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-primary text-primary px-8 py-4 hover:bg-primary hover:text-white transition-all duration-300 font-medium tracking-wide;
+  }
+  
+  .section-padding {
+    @apply py-20 lg:py-32;
+  }
+}
+
+@layer utilities {
+  .focus-visible {
+    @apply focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
+  }
+}
