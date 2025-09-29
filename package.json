@@ -7,9 +7,7 @@
     "build": "next build",
     "build:github": "GITHUB_PAGES=true next build",
     "start": "next start",
-    "lint": "next lint",
-    "studio": "sanity dev",
-    "seed": "tsx scripts/seedSanity.ts"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^13.5.0",
