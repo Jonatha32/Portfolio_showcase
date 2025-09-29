@@ -28,8 +28,8 @@ export default function Navbar() {
             <Image
               src={`${process.env.NODE_ENV === 'production' ? '/Portfolio_showcase' : ''}/El texto del párrafo-Photoroom.png`}
               alt="ArchLine Logo"
-              width={60}
-              height={40}
+              width={100}
+              height={100}
               className="mr-3"
             />
             <span className="font-display text-3xl font-bold text-primary tracking-tight">
