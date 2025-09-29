@@ -21,7 +21,7 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
       <Link href={`/projects/${project.slug.current}`} className="block focus-visible">
         <div className="relative aspect-[4/3] mb-6 overflow-hidden bg-gray">
           <Image
-            src={project.cover || 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'}
+            src={project.coverImage || 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'}
             alt={project.title}
             fill
             className="object-cover transition-all duration-500 group-hover:scale-110"

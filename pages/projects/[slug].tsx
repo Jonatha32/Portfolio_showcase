@@ -22,21 +22,21 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
     setIsGalleryOpen(true)
   }
 
-  const allImages = [project.cover, ...(project.gallery || [])]
+  const allImages = [project.coverImage, ...(project.gallery || [])]
 
   return (
     <>
       <SiteMeta 
         title={`${project.title} - Arc Showcase`}
         description={`${project.title} - ${project.client} - ${project.location}`}
-        image={project.cover}
+        image={project.coverImage}
       />
       
       <div className="py-20">
         {/* Hero Section */}
         <div className="relative h-[70vh] mb-16">
           <Image
-            src={project.cover || 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'}
+            src={project.coverImage || 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'}
             alt={project.title}
             fill
             className="object-cover"
