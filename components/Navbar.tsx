@@ -26,10 +26,10 @@ export default function Navbar() {
           
           <Link href="/" className="flex items-center">
             <Image
-              src="/El texto del párrafo-Photoroom.png"
+              src={`${process.env.NODE_ENV === 'production' ? '/Portfolio_showcase' : ''}/El texto del párrafo-Photoroom.png`}
               alt="ArchLine Logo"
-              width={100}
-              height={100}
+              width={60}
+              height={40}
               className="mr-3"
             />
             <span className="font-display text-3xl font-bold text-primary tracking-tight">

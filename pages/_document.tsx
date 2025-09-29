@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href="/El texto del párrafo-Photoroom.png" />
+        <link rel="icon" href={`${process.env.NODE_ENV === 'production' ? '/Portfolio_showcase' : ''}/El texto del párrafo-Photoroom.png`} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       </Head>
