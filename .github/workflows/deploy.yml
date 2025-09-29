@@ -17,26 +17,20 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        cache-dependency-path: arc-showcase/package-lock.json
+        cache-dependency-path: './package-lock.json'
         
     - name: Install dependencies
-      run: |
-        cd arc-showcase
-        npm ci
+      run: npm ci
         
     - name: Build
-      run: |
-        cd arc-showcase
-        npm run build:github
+      run: npm run build:github
         
     - name: Create .nojekyll
-      run: |
-        cd arc-showcase
-        touch out/.nojekyll
+      run: touch out/.nojekyll
         
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./arc-showcase/out
+        publish_dir: ./out
