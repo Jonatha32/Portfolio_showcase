@@ -50,7 +50,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const fallbackProjects: Project[] = [
     {
       _id: '1',
-      title: 'Casa Mediterránea',
+      title: 'Mediterranean House',
       slug: { current: 'modern-villa' },
       year: 2024,
       client: 'Private Client',
@@ -64,7 +64,7 @@ export const getStaticProps: GetStaticProps = async () => {
     },
     {
       _id: '2',
-      title: 'Torre Corporativa Madrid',
+      title: 'Madrid Corporate Tower',
       slug: { current: 'corporate-office' },
       year: 2023,
       client: 'Tech Innovation',
@@ -78,7 +78,7 @@ export const getStaticProps: GetStaticProps = async () => {
     },
     {
       _id: '3',
-      title: 'Centro Cultural Valencia',
+      title: 'Valencia Cultural Center',
       slug: { current: 'cultural-center' },
       year: 2023,
       client: 'Valencia Council',
@@ -92,7 +92,7 @@ export const getStaticProps: GetStaticProps = async () => {
     },
     {
       _id: '4',
-      title: 'Ático de Lujo',
+      title: 'Luxury Penthouse',
       slug: { current: 'luxury-penthouse' },
       year: 2024,
       client: 'Elite Residences',
@@ -106,7 +106,7 @@ export const getStaticProps: GetStaticProps = async () => {
     },
     {
       _id: '5',
-      title: 'Complejo Sostenible',
+      title: 'Sustainable Complex',
       slug: { current: 'sustainable-office' },
       year: 2024,
       client: 'Green Corp',
@@ -120,7 +120,7 @@ export const getStaticProps: GetStaticProps = async () => {
     },
     {
       _id: '6',
-      title: 'Retiro Minimalista',
+      title: 'Minimalist Retreat',
       slug: { current: 'minimalist-retreat' },
       year: 2023,
       client: 'Wellness Group',

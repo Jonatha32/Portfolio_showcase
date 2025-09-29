@@ -193,7 +193,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const projects: { [key: string]: Project } = {
     'modern-villa': {
       _id: '1',
-      title: 'Casa Mediterránea',
+      title: 'Mediterranean House',
       slug: { current: 'modern-villa' },
       year: 2024,
       client: 'Private Client',
@@ -208,7 +208,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         _type: 'block',
         children: [{
           _type: 'span',
-          text: 'Una villa contemporánea que fusiona perfectamente la arquitectura moderna con las influencias mediterráneas. Cada espacio ha sido diseñado para maximizar la luz natural y crear una conexión fluida entre interior y exterior.'
+          text: 'A contemporary villa that perfectly blends modern architecture with Mediterranean influences. Each space has been designed to maximize natural light and create a fluid connection between interior and exterior.'
         }]
       }],
       tags: ['Residential', 'Modern'],
@@ -216,7 +216,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     },
     'corporate-office': {
       _id: '2',
-      title: 'Torre Corporativa Madrid',
+      title: 'Madrid Corporate Tower',
       slug: { current: 'corporate-office' },
       year: 2023,
       client: 'Tech Innovation',
@@ -230,7 +230,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         _type: 'block',
         children: [{
           _type: 'span',
-          text: 'Un edificio corporativo de vanguardia que redefine el concepto de espacio de trabajo colaborativo. La estructura integra tecnologías sostenibles y espacios flexibles que se adaptan a las necesidades del futuro.'
+          text: 'A cutting-edge corporate building that redefines the concept of collaborative workspace. The structure integrates sustainable technologies and flexible spaces that adapt to future needs.'
         }]
       }],
       tags: ['Commercial', 'Contemporary'],
@@ -238,7 +238,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     },
     'cultural-center': {
       _id: '3',
-      title: 'Centro Cultural Valencia',
+      title: 'Valencia Cultural Center',
       slug: { current: 'cultural-center' },
       year: 2023,
       client: 'Valencia Council',
@@ -252,7 +252,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         _type: 'block',
         children: [{
           _type: 'span',
-          text: 'Un espacio público que celebra el arte y la cultura local a través de una arquitectura innovadora. El diseño crea un diálogo entre la tradición valenciana y la expresión contemporánea.'
+          text: 'A public space that celebrates local art and culture through innovative architecture. The design creates a dialogue between Valencian tradition and contemporary expression.'
         }]
       }],
       tags: ['Cultural', 'Public'],
@@ -260,7 +260,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     },
     'luxury-penthouse': {
       _id: '4',
-      title: 'Ático de Lujo',
+      title: 'Luxury Penthouse',
       slug: { current: 'luxury-penthouse' },
       year: 2024,
       client: 'Elite Residences',
@@ -272,7 +272,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         _type: 'block',
         children: [{
           _type: 'span',
-          text: 'Un ático de lujo que redefine la vida urbana premium. Cada detalle ha sido cuidadosamente seleccionado para crear una experiencia residencial única en el corazón de Bilbao.'
+          text: 'A luxury penthouse that redefines premium urban living. Every detail has been carefully selected to create a unique residential experience in the heart of Bilbao.'
         }]
       }],
       tags: ['Residential', 'Luxury'],
@@ -280,7 +280,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     },
     'sustainable-office': {
       _id: '5',
-      title: 'Complejo Sostenible',
+      title: 'Sustainable Complex',
       slug: { current: 'sustainable-office' },
       year: 2024,
       client: 'Green Corp',
@@ -292,7 +292,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         _type: 'block',
         children: [{
           _type: 'span',
-          text: 'Un complejo de oficinas que establece nuevos estándares en sostenibilidad arquitectónica. Integra tecnologías verdes y diseño biofílico para crear espacios de trabajo saludables y eficientes.'
+          text: 'An office complex that sets new standards in architectural sustainability. It integrates green technologies and biophilic design to create healthy and efficient workspaces.'
         }]
       }],
       tags: ['Commercial', 'Sustainable'],
@@ -300,7 +300,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     },
     'minimalist-retreat': {
       _id: '6',
-      title: 'Retiro Minimalista',
+      title: 'Minimalist Retreat',
       slug: { current: 'minimalist-retreat' },
       year: 2023,
       client: 'Wellness Group',
@@ -312,7 +312,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         _type: 'block',
         children: [{
           _type: 'span',
-          text: 'Un retiro minimalista que abraza la serenidad del paisaje mallorquín. El diseño se centra en la simplicidad y la conexión con la naturaleza, creando un santuario de paz y bienestar.'
+          text: 'A minimalist retreat that embraces the serenity of the Mallorcan landscape. The design focuses on simplicity and connection with nature, creating a sanctuary of peace and wellness.'
         }]
       }],
       tags: ['Hospitality', 'Minimalist'],

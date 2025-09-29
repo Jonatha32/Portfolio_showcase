@@ -25,17 +25,17 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           
           <Link href="/" className="flex items-center">
-    <Image
-      src="/El texto del párrafo-Photoroom.png" // Cambia la ruta si tu logo tiene otro nombre o formato
-      alt="Logo ArchLine"
-      width={100}
-      height={70}
-      className="rounded-full"
-    />
-    <span className="font-display text-3xl font-bold text-primary tracking-tight">
-      ArchLine
-    </span>
-  </Link>
+            <Image
+              src="/El texto del párrafo-Photoroom.png"
+              alt="ArchLine Logo"
+              width={100}
+              height={100}
+              className="mr-3"
+            />
+            <span className="font-display text-3xl font-bold text-primary tracking-tight">
+              ArchLine
+            </span>
+          </Link>
           
             <div className="hidden md:flex space-x-12">
     {navItems.map((item) => (
